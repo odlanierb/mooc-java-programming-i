@@ -78,7 +78,7 @@ public class Recipes {
     
     public void findIngredients(String find){
         for (Recipe recipe : recipes) {
-            if(recipe.containsIgredients(find)){
+            if(recipe.containsIngredients(find)){
                 System.out.println(recipe);
             }
         }

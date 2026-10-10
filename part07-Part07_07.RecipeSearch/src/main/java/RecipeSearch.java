@@ -35,7 +35,7 @@ public class RecipeSearch {
                 recipes.list();
             }else if(comand.equals("stop")){
                 break;
-            }else if(comand.contentEquals("find name")){
+            }else if(comand.equals("find name")){
                 System.out.print("Searched word: ");
                 String name = scanner.nextLine();
                 System.out.println("\nRecipes:");

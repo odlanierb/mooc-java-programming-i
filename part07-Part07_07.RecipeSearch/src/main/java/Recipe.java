@@ -31,7 +31,7 @@ public class Recipe {
         return ingredients;
     }
     
-    public boolean containsIgredients(String find){
+    public boolean containsIngredients(String find){
         String[] ingredientsParts = this.ingredients.split("\n");
         
         for (String ingredientsPart : ingredientsParts) {
